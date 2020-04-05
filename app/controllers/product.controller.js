@@ -1,17 +1,25 @@
-const db = require("../models");
-const Product = db.products;
+const db = require("../models"),
+  Sequelize = require("sequelize"),
+  Product = db.products,
+  Op = Sequelize.Op;
 
 exports.findOne = (req, res) => {
   const query = req.query;
 
-  if (query && !query.hasOwnProperty('title')) {
-    res.status(404).json({message: 'Ничего не найдено'});
+  if (query && !query.hasOwnProperty("title")) {
+    res.status(404).json({ message: "Ничего не найдено" });
     return;
   }
 
   Product.findOne({
-    where: { title: query.title },
-    attributes: ["id", "username", "email"],
+    where: {
+      title: query.title,
+    },
+    // where: {
+    //   title: {
+    //     [Op.iLike]: `%${query.title}%`,
+    //   },
+    // },
   })
     .then((data) => {
       res.send(data);
@@ -25,11 +33,11 @@ exports.findOne = (req, res) => {
 
 exports.create = (req, res) => {
   if (!Array.isArray(req.body)) {
-    res.json({message: 'Некорректный формат'})
+    res.json({ message: "Некорректный формат" });
     return;
   }
 
   Product.bulkCreate(req.body).then(() => {
-    res.json({message: 'Все ок 👌'});
+    res.json({ message: "Все ок 👌" });
   });
 };
