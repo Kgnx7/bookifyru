@@ -5,7 +5,7 @@ module.exports = (app) => {
   router.get("/find", products.findOne);
 
   router.post("/create", products.create);
-  // router.get("/find", users.findOne);
+  router.get("/findAll", products.findAll);
   // router.delete("/delete/:id", isAuthenticated, users.delete);
 
   app.use("/api/products", router);
