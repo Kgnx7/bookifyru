@@ -15,11 +15,6 @@ exports.findOne = (req, res) => {
     where: {
       title: query.title,
     },
-    // where: {
-    //   title: {
-    //     [Op.iLike]: `%${query.title}%`,
-    //   },
-    // },
   })
     .then((data) => {
       res.send(data);
@@ -33,16 +28,11 @@ exports.findOne = (req, res) => {
 
 exports.findAll = (req, res) => {
   const query = req.query;
-
-  if (query && !query.hasOwnProperty("search")) {
-    res.status(404).json({ message: "Ничего не найдено" });
-    return;
-  }
-
-  Product.findOne({
+  
+  Product.findAll({
     where: {
       title: {
-        [Op.iLike]: `%${query.search}%`,
+        [Op.iLike]: `%${query.s || ""}%`,
       },
     },
   })
@@ -56,13 +46,13 @@ exports.findAll = (req, res) => {
     });
 };
 
-exports.create = (req, res) => {
-  if (!Array.isArray(req.body)) {
-    res.json({ message: "Некорректный формат" });
-    return;
-  }
+// exports.create = (req, res) => {
+//   if (!Array.isArray(req.body)) {
+//     res.json({ message: "Некорректный формат" });
+//     return;
+//   }
 
-  Product.bulkCreate(req.body).then(() => {
-    res.json({ message: "Все ок 👌" });
-  });
-};
+//   Product.bulkCreate(req.body).then(() => {
+//     res.json({ message: "Все ок 👌" });
+//   });
+// };
