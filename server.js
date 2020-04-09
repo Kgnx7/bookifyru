@@ -7,7 +7,7 @@ require("dotenv").config();
 
 const app = express();
 var corsOptions = {
-  origin: "https://kgnx7.github.io/bookifyru",
+  origin: process.env.ORIGIN || "*",
 };
 
 app.use(cors(corsOptions));
