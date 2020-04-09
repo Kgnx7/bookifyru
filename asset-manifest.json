@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/bookifyru/static/css/main.69eda509.chunk.css",
+    "main.js": "/bookifyru/static/js/main.6b3edf34.chunk.js",
+    "main.js.map": "/bookifyru/static/js/main.6b3edf34.chunk.js.map",
+    "runtime-main.js": "/bookifyru/static/js/runtime-main.102adbde.js",
+    "runtime-main.js.map": "/bookifyru/static/js/runtime-main.102adbde.js.map",
+    "static/css/2.d788185a.chunk.css": "/bookifyru/static/css/2.d788185a.chunk.css",
+    "static/js/2.ad526d50.chunk.js": "/bookifyru/static/js/2.ad526d50.chunk.js",
+    "static/js/2.ad526d50.chunk.js.map": "/bookifyru/static/js/2.ad526d50.chunk.js.map",
+    "index.html": "/bookifyru/index.html",
+    "precache-manifest.35a5d3f710ad76f497e6f8f0159bfec4.js": "/bookifyru/precache-manifest.35a5d3f710ad76f497e6f8f0159bfec4.js",
+    "service-worker.js": "/bookifyru/service-worker.js",
+    "static/css/2.d788185a.chunk.css.map": "/bookifyru/static/css/2.d788185a.chunk.css.map",
+    "static/css/main.69eda509.chunk.css.map": "/bookifyru/static/css/main.69eda509.chunk.css.map",
+    "static/js/2.ad526d50.chunk.js.LICENSE.txt": "/bookifyru/static/js/2.ad526d50.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/bookifyru/static/media/logo.9ec24611.svg",
+    "static/media/profile.svg": "/bookifyru/static/media/profile.34ddb725.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.102adbde.js",
+    "static/css/2.d788185a.chunk.css",
+    "static/js/2.ad526d50.chunk.js",
+    "static/css/main.69eda509.chunk.css",
+    "static/js/main.6b3edf34.chunk.js"
+  ]
+}
