@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bookifyru/static/css/main.69eda509.chunk.css",
-    "main.js": "/bookifyru/static/js/main.6b3edf34.chunk.js",
-    "main.js.map": "/bookifyru/static/js/main.6b3edf34.chunk.js.map",
+    "main.js": "/bookifyru/static/js/main.f7eb289b.chunk.js",
+    "main.js.map": "/bookifyru/static/js/main.f7eb289b.chunk.js.map",
     "runtime-main.js": "/bookifyru/static/js/runtime-main.102adbde.js",
     "runtime-main.js.map": "/bookifyru/static/js/runtime-main.102adbde.js.map",
     "static/css/2.d788185a.chunk.css": "/bookifyru/static/css/2.d788185a.chunk.css",
     "static/js/2.ad526d50.chunk.js": "/bookifyru/static/js/2.ad526d50.chunk.js",
     "static/js/2.ad526d50.chunk.js.map": "/bookifyru/static/js/2.ad526d50.chunk.js.map",
     "index.html": "/bookifyru/index.html",
-    "precache-manifest.35a5d3f710ad76f497e6f8f0159bfec4.js": "/bookifyru/precache-manifest.35a5d3f710ad76f497e6f8f0159bfec4.js",
+    "precache-manifest.73525b86ddf4ebdf265d41c226638143.js": "/bookifyru/precache-manifest.73525b86ddf4ebdf265d41c226638143.js",
     "service-worker.js": "/bookifyru/service-worker.js",
     "static/css/2.d788185a.chunk.css.map": "/bookifyru/static/css/2.d788185a.chunk.css.map",
     "static/css/main.69eda509.chunk.css.map": "/bookifyru/static/css/main.69eda509.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.d788185a.chunk.css",
     "static/js/2.ad526d50.chunk.js",
     "static/css/main.69eda509.chunk.css",
-    "static/js/main.6b3edf34.chunk.js"
+    "static/js/main.f7eb289b.chunk.js"
   ]
 }

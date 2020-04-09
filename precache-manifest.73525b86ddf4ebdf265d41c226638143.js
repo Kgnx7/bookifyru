@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "260fff80d26485c12c3d5a695c74c58b",
+    "revision": "e7972b0c386b68fa750026bc9b1bae0f",
     "url": "/bookifyru/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bookifyru/static/css/2.d788185a.chunk.css"
   },
   {
-    "revision": "693c18798f3c30f6e170",
+    "revision": "65cdd5031f69807e4754",
     "url": "/bookifyru/static/css/main.69eda509.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bookifyru/static/js/2.ad526d50.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "693c18798f3c30f6e170",
-    "url": "/bookifyru/static/js/main.6b3edf34.chunk.js"
+    "revision": "65cdd5031f69807e4754",
+    "url": "/bookifyru/static/js/main.f7eb289b.chunk.js"
   },
   {
     "revision": "020ec92cd3853d162e4b",
